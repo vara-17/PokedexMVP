@@ -1,0 +1,7 @@
+<resources>
+    <style name="PokemonText">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/font_pokemon</item>
+    </style>
+</resources>
