@@ -28,7 +28,7 @@ object PokemonMapper {
             sprites.backDefault, sprites.backFemale, sprites.backShiny, sprites.backShinyFemale
         ).find { it?.isNotEmpty() == true }
 
-    private fun getTypes(types: List<Type>): String? {
+    fun getTypes(types: List<Type>): String? {
         return types.joinToString(",") { it.type.name }
     }
 
